@@ -11,13 +11,13 @@
     height: 100vh;
 }
 
-.logo {
-    height: 140px;
-    width: 140px;
+/* .logo {
+    height: 120px;
+    width: 120px;
     position: absolute;
     left: 5%;
     top: 5%;
-}
+} */
 
 .nom {
     text-align: center;
