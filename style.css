@@ -5,7 +5,7 @@
 }
 
 #banner {
-    background: linear-gradient(rgba(41, 85, 206, 0.5), #000000), url(image/background.png);
+    background: linear-gradient(rgba(41, 85, 206, 0.6), #000000), url(image/back.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
