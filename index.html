@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ebouabba</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="banner">
+        <img src="image/ebb.png" class="logo">
+        <div class="nom">
+            <h1>EL Mehdi Bouabbadi</h1>
+            <p>Programmer and desiner web development</p>
+            <div class="pagge">
+                <a href="https://www.facebook.com/ebouabba/"><span></span>Facebook</a>
+                <a href="https://github.com/ebouabba"><span></span>Github</a>
+                <a href="https://www.linkedin.com/in/el-mehdi-bouabbadi-82227a233/"><span></span>Linkedin</a>
+                <a href="https://www.instagram.com/ebouabba/"><span></span>Instagram</a>
+
+            </div>
+        </div>
+    </section>
+    <div id="info">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PROFILE</a></li>
+                <li><a href="#">HELP</a></li>
+                <li><a href="#">CHAT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="info_a">
+        <img src="image/open.png" id="menu">
+    </div>
+    <script>
+        var info_a = document.getElementById("info_a")
+        var info = document.getElementById("info")
+        var menu = document.getElementById("menu")
+
+        info_a.onclick = function(){
+            if (info.style.right == "-150px"){
+                info.style.right = "0";
+                menu.src = "image/close.png"
+            }
+            else{
+                info.style.right = "-150px";
+                menu.src = "image/open.png"
+            }
+        }
+    </script>
+</body>
+
+</html>
