@@ -15,13 +15,17 @@
         <!-- <img src="image/ebb.png" class="logo"> -->
         <div class="nom">
             <h1>Welcom to my web site</h1>
-            <p>I'm EL MEHDI BOUABBADI, Programmer Web Developemnet 
-                        and desiner</p>
+            <p>I'm EL MEHDI BOUABBADI, Programmer Web Developemnet
+                and desiner</p>
             <div class="pagge">
-                <a href="https://www.facebook.com/ebouabba/" target="_blank"><span></span>Facebook</a>            </div>
-                <a href="https://github.com/ebouabba" target="_blank"><span></span>Github</a>
-                <a href="https://www.linkedin.com/in/el-mehdi-bouabbadi-82227a233/" target="_blank"><span></span>Linkedin</a>
-                <a href="https://www.instagram.com/ebouabba/" target="_blank"><span></span>Instagram</a>
+
+                <a target="_blank" href="https://www.facebook.com/ebouabba/"><span></span>Facebook</a>
+                <a target="_blank" href="https://github.com/ebouabba"><span></span>Github</a>
+                <a target="_blank"
+                    href="https://www.linkedin.com/in/el-mehdi-bouabbadi-82227a233/"><span></span>Linkedin</a>
+                <a target="_blank" href="https://www.instagram.com/ebouabba/"><span></span>Instagram</a>
+
+
 
             </div>
         </div>
@@ -44,12 +48,12 @@
         var info = document.getElementById("info")
         var menu = document.getElementById("menu")
 
-        info_a.onclick = function(){
-            if (info.style.right == "-150px"){
+        info_a.onclick = function () {
+            if (info.style.right == "-150px") {
                 info.style.right = "0";
                 menu.src = "image/close.png"
             }
-            else{
+            else {
                 info.style.right = "-150px";
                 menu.src = "image/open.png"
             }
